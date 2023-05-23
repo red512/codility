@@ -15,7 +15,7 @@ def solution(B):
                     count += 1
                     B[i-2][j+2] = "O"
                     
-                if count >= 1:
+                if count != 0:
                     max_count +=1
     return max_count
 
